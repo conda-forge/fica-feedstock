@@ -1,5 +1,5 @@
 {% set name = "fica" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fica-{{ version }}.tar.gz
-  sha256: f353c391594d197b104beecb2a19f310ba2810af968efbc63019d9b46f070a97
+  sha256: fa3b2faafe9af2410f84b4c65f4778e3c4d5341e65fe6c69e490feaf1d161686
 
 build:
   noarch: python
